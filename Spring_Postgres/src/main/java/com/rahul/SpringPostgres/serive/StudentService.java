@@ -1,5 +1,8 @@
 package com.rahul.SpringPostgres.serive;
 
-public class StudentService {
+import com.rahul.SpringPostgres.dto.Studentdto;
+
+public interface StudentService {
+    Studentdto createStudent(Studentdto studentdto);
 
 }
